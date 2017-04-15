@@ -2,3 +2,16 @@
 .fa {
 	margin-right: 5px;
 }
+
+/* TODO correct the colours - Same for the other social icons */
+a.quora, a.quote:hover {
+	color: #b92b27 {
+}
+
+div#logo {
+	background-color: green;
+}
+
+h1#title {
+	font-size: 24px !important;
+}

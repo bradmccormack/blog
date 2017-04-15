@@ -37,7 +37,8 @@
 {{ end }}
 {{ if .Site.Params.linkedin.account }}
 				<li>
-					<a href="http://www.linkedin.com/in/{{.Site.Params.linkedin.account}}" target="_blank" title="LinkedIn" class="linkedin"><span class="fa fa-linkedin" aria-hidden="true"></span>LinkedIn</a>
+					<a href="http://www.linkedin.com/in/{{.Site.Params.linkedin.account}}" target="_blank" title="LinkedIn" class="linkedin">
+					<span class="fa fa-linkedin" aria-hidden="true"></span>LinkedIn</a>
 				</li>
 {{ end }}
 {{ if .Site.Params.github.account }}
@@ -48,7 +49,15 @@
 {{ end }}
 {{ if .Site.Params.googleplus.account }}
 				<li>
-					<a href="https://plus.google.com/{{.Site.Params.googleplus.account}}" target="_blank" title="Google+" class="googleplus"><span class="icon icon-google-plus"></span>Google+</a>
+					<a href="https://plus.google.com/{{.Site.Params.googleplus.account}}" target="_blank" title="Google+" class="googleplus">
+					<span class="icon icon-google-plus"></span>Google+</a>
+				</li>
+{{ end }}
+
+{{ if .Site.Params.quora }}
+				<li>
+					<a href="https://www.quora.com/profile/{{.Site.Params.quora.account}}" target="_blank" title="Quora" class="quora">
+					<span class="fa fa-quora" aria-hidden="true"></span>Quora</a>
 				</li>
 {{ end }}
 			</ul>

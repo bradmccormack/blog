@@ -41,7 +41,8 @@ GoogleAnalytics = "UA-XXXXX-Y"
 Fusce pulvinar dictum magna, vel rutrum nunc tempor non. Curabitur aliquam <a href="http://mdhender.com">Laci Nia</a> justo. Pellentesque fringilla libero eget suscipit malesuada.
 
 Ut pharetra pellentesque eros non fringilla. Duis vel augue at ex semper lobortis vitae in ipsum. Suspendisse et congue libero."""
-
+  [params.quora]
+   account = "Brad-Mccormack"
   [params.facebook]
     account = "nixon.example"
   [params.feedburner]
