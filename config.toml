@@ -5,11 +5,12 @@ name = "Nerd On Coffee"
 title = "Nerd On Coffee"
 metadataformat = "yaml"
 canonifyurls = true
+
 # Enable Google Analytics by entering your tracking id
 googleAnalytics = ""
 theme = "nixon"
-disqusShortname = "nixon.example"
-copyright = "Copyright (c) 20YY, Your Name Here; all rights reserved."
+disqusShortname = "disqus_BtSd6QLGb8"
+copyright = "Copyright (c) 2017, Brad McCormack; all rights reserved."
 MetaDataFormat = "yaml"
 
 # used by Hugo shortcodes
@@ -26,7 +27,7 @@ GoogleAnalytics = "UA-XXXXX-Y"
     topic = "topics"
 
 [params]
-  copyright_years = "2016"
+  copyright_years = "2017"
   css_file = "/css/nixon.css"
   domain_name = "nerdoncoffee"
   personal_site = "https://nerdoncoffee.com"
@@ -49,7 +50,7 @@ Ut pharetra pellentesque eros non fringilla. Duis vel augue at ex semper loborti
   [params.googleplus]
     account = ""
   [params.linkedin]
-    account = "nixon.example"
+    account = "bradmccormack"
     source  = "nixon.example"
   [params.twitter]
     account = "nixon.example"
@@ -57,5 +58,5 @@ Ut pharetra pellentesque eros non fringilla. Duis vel augue at ex semper loborti
     account = "nixon.example"
 
   [params.license]
-    url = "http://creativecommons.org/licenses/by/3.0/"
-    attribution = "Some rights reserved"
+    url = "https://opensource.org/licenses/MIT"
+    attribution = "MIT"
