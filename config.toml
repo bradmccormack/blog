@@ -1,0 +1,61 @@
+baseurl = "https://www.nerdoncoffee.com"
+languageCode = "en-us"
+
+name = "Nerd On Coffee"
+title = "Nerd On Coffee"
+metadataformat = "yaml"
+canonifyurls = true
+# Enable Google Analytics by entering your tracking id
+googleAnalytics = ""
+theme = "nixon"
+disqusShortname = "nixon.example"
+copyright = "Copyright (c) 20YY, Your Name Here; all rights reserved."
+MetaDataFormat = "yaml"
+
+# used by Hugo shortcodes
+GoogleAnalytics = "UA-XXXXX-Y"
+
+# note that the theme expects author both here and in the
+# parameters section
+[author]
+    name = "Brad McCormack"
+
+# used by the theme
+[indexes]
+    tag = "tags"
+    topic = "topics"
+
+[params]
+  copyright_years = "2016"
+  css_file = "/css/nixon.css"
+  domain_name = "nerdoncoffee"
+  personal_site = "https://nerdoncoffee.com"
+
+  [params.author]
+    name = "Brad McCormack"
+    # The three quotes allow the biography to span
+    # multiple lines. Must end with three, too.
+    short_bio = """
+Fusce pulvinar dictum magna, vel rutrum nunc tempor non. Curabitur aliquam <a href="http://mdhender.com">Laci Nia</a> justo. Pellentesque fringilla libero eget suscipit malesuada.
+
+Ut pharetra pellentesque eros non fringilla. Duis vel augue at ex semper lobortis vitae in ipsum. Suspendisse et congue libero."""
+
+  [params.facebook]
+    account = "nixon.example"
+  [params.feedburner]
+    account = "nixon.example"
+  [params.github]
+    account = "nixon.example"
+  [params.googleplus]
+    account = ""
+  [params.linkedin]
+    account = "nixon.example"
+    source  = "nixon.example"
+  [params.twitter]
+    account = "nixon.example"
+  [params.slideshare]
+    account = "nixon.example"
+
+  [params.license]
+    url = "http://creativecommons.org/licenses/by/3.0/"
+    attribution = "Some rights reserved"
