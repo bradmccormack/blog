@@ -18,4 +18,7 @@ div#logo {
 
 section#main h1#title {
 	font-size: 2.0em !important;
+	max-width: 60% !important;
+    margin-left: 20% !important; 
+    margin-right: 20% !important;
 }
