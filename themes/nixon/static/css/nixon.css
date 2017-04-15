@@ -205,7 +205,7 @@ article>footer {
     -webkit-transition: all 1.3s ease-in;
     -moz-transition: all 1.3s ease-in;
     -ms-transition: all 1.3s ease-in;
-    transition: all 1.3s ease-in
+    transition: all 1.3s ease-in;
 }
 
 #logolink:hover {
@@ -1371,7 +1371,10 @@ body>footer p {
     #logo {
         font-size: 6em;
         line-height: .4em;
-        margin-right: .2em
+        margin-right: .2em;
+        /*
+        background-image : url("/img/profile.jpg");
+        */
     }
 
     #meta>div {
@@ -1664,9 +1667,11 @@ body>footer p {
     content: "\4c"
 }
 
+/*
 .icon-logo:before {
     content: "\4d"
 }
+*/
 
 .icon-pinterest:before {
     content: "\4f"
