@@ -1,4 +1,4 @@
-baseurl = "http://www.nerdoncoffee.com"
+baseurl = "http://staging.nerdoncoffee.com"
 languageCode = "en-us"
 
 name = "Nerd On Coffee"
