@@ -29,6 +29,7 @@ GoogleAnalytics = "UA-XXXXX-Y"
 [params]
   copyright_years = "2017"
   css_file = "/css/nixon.css"
+  custom_css_file="/css/style.css"
   domain_name = "nerdoncoffee"
   personal_site = "https://nerdoncoffee.com"
 
