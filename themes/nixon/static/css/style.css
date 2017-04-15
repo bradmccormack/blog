@@ -1,3 +1,7 @@
+p {
+	font-size : 0.75em !important;
+}
+
 /* Font Awesome */
 .fa {
 	margin-right: 5px;
@@ -5,13 +9,13 @@
 
 /* TODO correct the colours - Same for the other social icons */
 a.quora, a.quote:hover {
-	color: #b92b27 {
+	color: #b92b27;
 }
 
 div#logo {
-	background-color: green;
+	/*background-color: green;*/
 }
 
-h1#title {
-	font-size: 24px !important;
+section#main h1#title {
+	font-size: 2.0em !important;
 }
