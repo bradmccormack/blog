@@ -1,4 +1,4 @@
-baseurl = "http://staging.nerdoncoffee.com"
+baseurl = "https://nerdoncoffee.com"
 languageCode = "en-us"
 
 name = "Nerd On Coffee"
@@ -30,17 +30,14 @@ GoogleAnalytics = "UA-XXXXX-Y"
   copyright_years = "2017"
   css_file = "/css/nixon.css"
   custom_css_file="/css/style.css"
-  domain_name = "nerdoncoffee"
+  domain_name = "nerdoncoffee.com"
   personal_site = "https://nerdoncoffee.com"
 
   [params.author]
     name = "Brad McCormack"
     # The three quotes allow the biography to span
     # multiple lines. Must end with three, too.
-    short_bio = """
-Fusce pulvinar dictum magna, vel rutrum nunc tempor non. Curabitur aliquam <a href="http://mdhender.com">Laci Nia</a> justo. Pellentesque fringilla libero eget suscipit malesuada.
-
-Ut pharetra pellentesque eros non fringilla. Duis vel augue at ex semper lobortis vitae in ipsum. Suspendisse et congue libero."""
+    short_bio = """TODO"""
   [params.quora]
    account = "Brad-Mccormack"
   [params.facebook]
