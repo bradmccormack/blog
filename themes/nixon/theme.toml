@@ -1,0 +1,19 @@
+name = "nixon"
+license = "MIT"
+licenselink = "https://github.com/mdhender/nixon/blob/master/LICENSE.md"
+description = "A nice theme for bloggers."
+homepage = "https://github.com/mdhender/nixon"
+tags = ["google analytics", "disqus", "blog", "minimal", "nice"]
+features = []
+min_version = 0.17
+
+[author]
+  name     = "mdhender"
+  homepage = "https://github.com/mdhender/"
+
+# acknowledgments
+[[original]]
+  name     = "Steven Francia"
+  homepage = "https://apf13.com/"
+  repo     = "https://github.com/spf13/spf13.com"
+  roots    = "http://spf13.com/post/go-go-hugo-blog/"

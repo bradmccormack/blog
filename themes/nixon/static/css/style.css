@@ -1,0 +1,24 @@
+p {
+	font-size : 0.75em !important;
+}
+
+/* Font Awesome */
+.fa {
+	margin-right: 5px;
+}
+
+/* TODO correct the colours - Same for the other social icons */
+a.quora, a.quote:hover {
+	color: #b92b27;
+}
+
+div#logo {
+	/*background-color: green;*/
+}
+
+section#main h1#title {
+	font-size: 2.0em !important;
+	max-width: 60% !important;
+    margin-left: 20% !important; 
+    margin-right: 20% !important;
+}
